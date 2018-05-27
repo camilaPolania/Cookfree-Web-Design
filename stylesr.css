@@ -1,0 +1,311 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+#principal {
+    background-color: #A6B652;
+    -webkit-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    margin: 0;
+}
+
+#localNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+
+}
+
+
+#linkLogo{
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+#linkLogo::before{
+    width: 100%;
+    height: 110px;
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background: #E1A31A;
+    box-sizing: border-box;
+
+    -webkit-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.3);
+    z-index: -1
+}
+
+
+img.logo {
+    height: 60px;
+    align-content: center;
+}
+
+.contLis{
+    margin: 0;
+}
+
+li.lis {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a.login {
+    border-radius: 50px;
+    border: solid 2px white;
+}
+
+a {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+a:hover {
+    color: white;
+    font-weight: 500;
+}
+
+#iniciarSesion:hover{
+    color: #A6B652;
+    background-color: white;
+    
+}
+
+#tematica {
+    background-image: url(Img/fondo01.jpg);
+    background-size: cover;
+    width: auto;
+    height: 700px;
+}
+
+#texto {
+    background-image: url(Img/milk.png);
+    background-size: cover;
+    width: auto;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 90px;
+}
+
+p.tex {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+
+#recetas {
+    margin-top: 50px;
+}
+
+img#iconitos {
+    width: auto;
+    height: 20px;
+    padding-right: 15px;
+}
+
+li.datos {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+li.dat {
+    margin-top: 10px;
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#comida {
+    position: relative;
+}
+
+.nomComida {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.tipo {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+#star {
+    padding-left: 100px;
+}
+
+#mover {
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.perfil {
+    position: absolute;
+    top: -40px;
+    left: -10px;
+    width: auto;
+    height: 70%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#espacio {
+    margin-top: 25px;
+}
+
+.recetas {
+    width: 100%;
+    height: 100%;
+}
+
+#dos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#icono {
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    width: 50%;
+    height: 50%;
+}
+
+.p1 {
+    text-align-last: center;
+}
+
+#dos > div {
+    display: flex;
+    align-content: flex-end;
+    position: absolute;
+    color: white;
+    background-color: rgb(0, 0, 0, .5);
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    width: 340px;
+    height: 340px;
+    transition: ease-in-out .7s;
+
+}
+
+#dos:hover {
+    opacity: .4;
+    transition: ease-in-out .7s;
+}
+
+#magg {
+    background-color: #A6B652;
+    -webkit-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    margin: 0;
+}
+
+#f {
+    margin-top: 100px;
+    background-color: rgb(215, 227, 193);
+    height: 30px;
+}
+
+#fo {
+
+    background-color: #A6B652;
+    height: 200px;
+}
+
+
+#f {
+    margin-top: 100px;
+    background-color: rgb(215, 227, 193);
+    height: 30px;
+}
+
+#fo {
+
+    background-color: #A6B652;
+    height: 200px;
+}
+
+#final {
+
+    background-color: #A6B652;
+    height: 180px;
+}
+
+.logoFinal{
+    width: 40%;
+    height: auto;
+}
+
+#ff {
+    padding-top: 10px;
+}
+
+.cont {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+.enlaces {
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+#ee {
+    width: auto;
+    height: 20%;
+
+}
+
+#one {
+    padding-top: 5px;
+}
+
+
+
+ul.lista {
+    list-style-type: circle;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}

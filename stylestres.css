@@ -1,0 +1,427 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+#principal {
+    background-color: #A6B652;
+    -webkit-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    margin: 0;
+}
+
+#localNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+
+}
+
+
+#linkLogo {
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+#linkLogo::before {
+    width: 100%;
+    height: 110px;
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background: #E1A31A;
+    box-sizing: border-box;
+
+    -webkit-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 16px 54px -8px rgba(0, 0, 0, 0.3);
+    z-index: -1
+}
+
+
+img.logo {
+    height: 60px;
+    align-content: center;
+}
+
+.contLis {
+    margin: 0;
+}
+
+li.lis {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a.login {
+    border-radius: 50px;
+    border: solid 2px white;
+}
+
+a {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+a:hover {
+    color: white;
+    font-weight: 500;
+}
+
+#iniciarSesion:hover {
+    color: #A6B652;
+    background-color: white;
+
+}
+
+
+div#contendorr {
+    position: relative;
+    padding-top: 120px;
+}
+
+li.iconos {
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+
+.etiqueta {
+    margin: auto;
+    display: flex;
+    font-weight: 300;
+
+}
+
+
+#imagenVideo {
+    background-image: url(Img/recetaVideo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    max-width: none;
+    justify-content: center;
+    position: relative;
+}
+
+div.fondoNegro {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    opacity: 0.4;
+
+}
+
+.reproducir {
+    position: absolute;
+    top: 350px;
+
+}
+
+#borde {
+    padding: 0;
+}
+
+a.opcionReceta{
+    padding: 0;
+    color: black;
+    font-size: 15px; 
+    text-align: center;
+        transition: all ease .2s;
+}
+
+.opcionReceta:hover{
+    
+    text-decoration: none;
+    color: #A6B652;
+    font-weight: 400;
+
+
+    
+}
+
+a.opcionDos{
+    padding: 0;
+    color: black;
+    font-size: 15px; 
+}
+
+
+
+h1 {
+    font-weight: 800;
+    color: #E1A31A;
+    opacity: .7;
+    font-size: 40pt;
+    padding-top: 30px;
+}
+
+#items {
+    padding-left: 60px;
+
+}
+
+hr.lineaCentral {
+    border-top: 2px solid #A6B652;
+    width: 85%;
+}
+
+li.infoReceta {
+    display: inline-block;
+    padding-right: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.infoIcono {
+    width: auto;
+    height: 3vh;
+}
+
+p.infoRe {
+    font-size: 15px;
+}
+
+.iconitos {
+    padding: 0;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 50pt;
+    color: #AC6362;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.subtituloReceta {
+    margin-top: -25px;
+    font-weight: 400;
+    font-size: 50pt;
+    color: #AC6362;
+}
+
+#bordecito {
+    padding: 0;
+}
+
+hr.lineaSeccionUno {
+    border-top: 2px solid #E1A31A;
+    padding-top: 69px;
+    width: 100%;
+}
+
+#seccion {
+    position: relative;
+}
+
+.secUno {
+    position: absolute;
+    top: -50px;
+    width: auto;
+    height: 12vh;
+
+}
+
+h3 {
+    color: #E1A31A;
+    font-size: 35pt;
+
+}
+
+#parrafoUno {
+    padding: 0;
+
+}
+
+.infoCalabaza {
+    font-size: 17pt;
+    font-weight: 300;
+
+}
+
+.calabaza {
+    width: auto;
+    height: 50vh;
+}
+
+.relleno {
+    width: auto;
+    height: 195px;
+
+}
+
+#seccionD {
+    position: relative;
+}
+
+hr.lineaSeccionDos {
+    position: absolute;
+    left: 160px;
+    border-top: 2px solid #A6B652;
+    width: 88%;
+    padding: 0;
+}
+
+.secDos {
+    width: auto;
+    height: 12vh;
+}
+
+.secTres {
+    width: auto;
+    height: 12vh;
+}
+
+h4 {
+    font-size: 35pt;
+    color: #A6B652;
+    padding-top:
+}
+
+#textoCremaDeAguacate {
+    font-size: 17pt;
+    font-weight: 300;
+}
+
+.calabazaDos {
+    width: auto;
+    height: 50vh;
+    margin-top: -400px;
+}
+
+hr.lineaSeccionTres {
+    border-top: 2px solid #AC6362;
+    padding-top: 69px;
+    width: 100%;
+}
+
+hr.lineaFantasma {
+    border-top: 2px solid white;
+    padding-top: 69px;
+    width: 100%;
+}
+
+h5 {
+    font-size: 35pt;
+    color: #AC6362;
+    padding-top:
+}
+
+.sTres {
+    position: relative;
+    margin-top: -90px;
+
+}
+
+hr.lineaSeccionCuatro {
+    position: absolute;
+    left: 160px;
+    border-top: 2px solid #E1A31A;
+    width: 88%;
+    padding: 0;
+}
+
+
+
+.rellenoHistoria {
+    height: 210px;
+}
+
+hr.lineaSeccionHistoria {
+    border-top: 2px solid #A6B652;
+
+    width: 100%;
+}
+
+hr.lineaHistoria {
+    border-top: 2px solid #E1A31A;;
+    margin-left: 50px;
+    width: 88%;
+}
+
+.historiaDos {
+    margin-top: -500px;
+}
+
+
+
+
+
+
+
+#barra {
+    margin-top: 100px;
+    background-color: rgb(215, 227, 193);
+    height: 30px;
+}
+
+
+
+#final {
+
+    background-color: #A6B652;
+    height: 180px;
+}
+
+.logoFinal {
+    width: 40%;
+    height: auto;
+}
+
+#contenedorGrande {
+    padding-top: 10px;
+}
+
+.cont {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+.enlaces {
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+#RedesSociales {
+    width: auto;
+    height: 20%;
+
+}
+
+#one {
+    padding-top: 5px;
+}
+
+
+
+ul.lista {
+    list-style-type: circle;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
